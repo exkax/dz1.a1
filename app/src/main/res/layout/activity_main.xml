@@ -37,7 +37,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 
         android:id="@+id/layout1"
         android:layout_width="match_parent"
@@ -50,14 +49,10 @@
         app:endIconMode="clear_text"
         >
         <com.google.android.material.textfield.TextInputEditText
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 
             android:id="@+id/username"
             android:hint="Username"
-            android:background="@drawable/radius"
             android:textSize="18sp"
-            android:paddingStart="10dp"
-            android:paddingVertical="12sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -75,20 +70,14 @@
         app:passwordToggleEnabled="true"
 
 
->
+
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/radius"
             android:hint="Password"
-            android:paddingStart="10dp"
             android:textSize="18sp"
-            android:paddingVertical="12sp"
-            android:paddingEnd="10dp"
-            app:startIconDrawable="@drawable/eye_24"
             android:drawableRight="@drawable/eye_24"
             android:inputType="textPassword"/>
 
