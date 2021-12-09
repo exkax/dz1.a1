@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
     <com.google.android.material.textfield.TextInputLayout
-
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:id="@+id/layout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +59,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
         android:id="@+id/layout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
